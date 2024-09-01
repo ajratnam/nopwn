@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nopwn"
+version = "0.1.0"
+description = ""
+authors = ["Ajay Ratnam <ajratnam.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+arguably = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
